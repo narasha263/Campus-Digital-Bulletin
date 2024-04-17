@@ -1,0 +1,84 @@
+body { 
+background-color:#a2dc10;
+box-sizing: border-box;
+margin:0;
+padding:0;
+background-position: center;
+}
+h1 {
+text-align: center;
+margin-bottom: .0px;
+font-weight: bolder;
+}
+h2,h3 {
+text-align: center;
+margin-bottom: .0px;
+font-weight: bolder;
+}
+ .login-box, .register-form {
+width: 270px;
+height: 320px; 
+color: #b8b810;
+position: fixed;
+top: 50%;
+left: 50%;
+background-color:#041f30;
+transform: translate(-50%, -50%);
+padding: 30px;
+}
+.login-box p, .register-form p {
+text-align: left;
+margin-bottom: .0px;
+font-weight: bold;
+}
+.login-box input[type="text"], .login-box input[type="password"], .register-form input[type="text"], .register-form input[type="password"] {
+border: none;
+border-bottom: .0px solid #070000;
+border-radius: 10px;
+margin-bottom: 10px;
+background-color: #c1c8cd;
+width: 100%;
+padding: 10px;
+outline: none;
+height: 0px;
+color: #171818;
+top: 50px;
+}
+button, .register-form button {
+background-color: #09f919;
+color: #ffffff;
+border: none;
+padding: 5px 100px;
+font-size: 18px;
+border-radius: 90px;
+cursor: pointer;
+}
+button:hover, .register-form button:hover {
+background-color: #0497f3;
+}
+.remember-me, .register-form .remember-me {
+display: flex;
+margin-top: 5px;
+color: #989696;
+margin-bottom: 20px;      
+}
+.remember-me input, .register-form .remember-me input {
+margin-right: 8px;
+} 
+.register-link, .login-link {
+align-items: center;
+justify-content: center;
+margin-top: .0px;
+color: #b62c0a;
+text-decoration: none;
+font-size: 20px;
+}
+.register-link:hover, .login-link:hover {
+text-decoration: underline;
+}  
+.login-box input[type="submit"]:hover, .register-form input[type="submit"]:hover {
+background: #000;
+}
+.register-form {
+display: none;
+}
